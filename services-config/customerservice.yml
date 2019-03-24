@@ -1,0 +1,8 @@
+server:
+  port: 9090
+foo: bar
+# this is the default setting for configserver URL
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
